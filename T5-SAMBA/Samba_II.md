@@ -18,7 +18,7 @@ Para la realización de la actividad se necesitan los siguientes requisitos prev
 
 ## Configuración inicial
 
-Crea un directorio en /srv/enterprise y modifica el directorio para que Kirk sea propietario.
+Crea un directorio en `/srv/enterprise` y modifica el directorio para que Kirk sea propietario.
 
 Ahora modifica los permisos para que unicamente el usuario y grupo propietarios puedan leer, escribir y ejecutar.
 
@@ -30,8 +30,10 @@ Añade ambos usuarios creados previamente a Samba.
 
 ## Actividades
 
-+ Crea un fichero llamado `USSEnterprise.txt` con Kirk que contenga `James T. Kirk`
-+ Modifica el fichero `USSEnterprise.txt` con Picard para que al final del fichero ponga `Jean-Luc Picard`
+En el servidor:
+
++ Crea un fichero llamado `/srv/enterprise/USSEnterprise.txt` con Kirk que contenga `James T. Kirk`
++ Modifica el fichero `/srv/enterprise/USSEnterprise.txt` con Picard para que al final del fichero ponga `Jean-Luc Picard`
 
 ## Preguntas
 
@@ -42,7 +44,7 @@ Añade ambos usuarios creados previamente a Samba.
 
 ## Tarea final
 
-Define unas mascaras de creación para que los usuarios puedan leer y escribir en ficheros ajenos.
+Define unas máscaras de creación y modifica los permisos necesarios para que los usuarios desde las maquinas cliente y desde el servidor puedan leer y escribir en ficheros ajenos.
 
 
 
